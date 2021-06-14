@@ -1,0 +1,31 @@
+:root {
+  --primary-font-size: 10px;
+  --primary-color-light: #fff;
+  --primary-color-dark: #161616;
+}
+
+*,
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--primary-font-size);
+  font-family: 'Segoe UI', serif;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-family: 'Segoe UI', serif;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 1rem;
+}
